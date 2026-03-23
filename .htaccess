@@ -1,0 +1,61 @@
+Options -Indexes
+Options +FollowSymLinks
+Options -MultiViews
+DirectoryIndex index.php
+RewriteEngine on
+
+
+RewriteRule ^we-welcome-you/?$ index.php [NC]
+RewriteRule ^home/?$ index.php [NC]
+RewriteRule ^faq/?$ faq.php [NC]
+RewriteRule ^consultancy/?$ consultancy.php [NC]
+RewriteRule ^flights/?$ flights.php [NC]
+RewriteRule ^shipment/?$ shipment.php [NC]
+RewriteRule ^track/?$ track.php [NC]
+RewriteRule ^gallery/?$ gallery.php [NC]
+RewriteRule ^shop/?$ shop.php [NC]
+RewriteRule ^blog-post/?$ blog-post.php [NC]
+RewriteRule ^quote/?$ quote.php [NC]
+RewriteRule ^track/?$ track.php [NC]
+RewriteRule ^resources/?$ resources.php [NC]
+RewriteRule ^services/?$ services.php [NC]
+RewriteRule ^specialised/?$ specialised.php [NC]
+RewriteRule ^career/?$ career.php [NC]
+RewriteRule ^careers/?$ careers.php [NC]
+RewriteRule ^whatsapp/?$ whatsapp.php [NC]
+RewriteRule ^service-details/?$ service-details.php [NC]
+RewriteRule ^schedules/?$ schedules.php [NC]
+RewriteRule ^application/?$ application.php [NC]
+RewriteRule ^appointment/?$ appointment.php [NC]
+RewriteRule ^apply/?$ apply.php [NC]
+RewriteRule ^terms/?$ terms.php [NC]
+RewriteRule ^blog/?$ blog.php [NC]
+RewriteRule ^blog-detail/?$ blog-detail.php [NC]
+RewriteRule ^blog-details/?$ blog-details.php [NC]
+RewriteRule ^plan/?$ plan.php [NC]
+RewriteRule ^about/?$ about.php [NC]
+RewriteRule ^contact/?$ contact.php [NC]
+RewriteRule ^end-current-session/?$ logout.php [NC]
+RewriteRule ^forget-password/?$ forgetpassword.php [NC]
+RewriteRule ^affiliate/?$ affiliate.php [NC]
+RewriteRule ^support/?$ support.php [NC]
+RewriteRule ^login/?$ login.php [NC]
+RewriteRule ^signup/?$ register.php [NC]
+RewriteRule ^register/?$ register.php [NC]
+RewriteRule ^registration/?$ registration.php [NC]
+RewriteRule ^policy/?$ policy.php [NC]
+RewriteRule ^rules/?$ rules.php [NC]
+RewriteRule ^team/?$ team.php [NC]
+RewriteRule ^terms/?$ terms.php [NC]
+RewriteRule ^privacy-policy/?$ policy.php [NC]
+
+RewriteRule ^disclaimer/?$ disclaimer.php [NC]
+RewriteRule ^product-category/?$ product-category.php [NC]
+RewriteRule ^product-details/?$ product-details.php [NC]
+RewriteRule ^blog-read/?$ blog-read.php [NC]
+
+
+#ErrorDocument 404 /404.php
+#ErrorDocument 500 /index.php/500/
+#RewriteRule ^(.*)$ admin_login.php?/$1 [NC,L,QSA]
+#RewriteRule ^(.*)$ admin_login.php/$1 [NC,L,QSA]
