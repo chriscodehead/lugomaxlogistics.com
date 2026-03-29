@@ -251,6 +251,7 @@ include 'includes/header.php';
         overflow: hidden;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     }
+    
 
     .card-image {
         flex: 1;

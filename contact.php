@@ -488,6 +488,7 @@ include 'includes/header.php';
         color: #6b7280;
     }
 
+
     /* MOBILE */
     @media(max-width:768px) {
         .response-items {

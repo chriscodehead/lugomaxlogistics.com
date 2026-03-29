@@ -402,7 +402,6 @@ include 'includes/header.php';
     <div class="container">
 
         <form method="POST" class="quote-flow">
-
             <!-- ================= STEP 1 ================= -->
             <div class="form-step active">
                 <center><?php if ($error): ?>

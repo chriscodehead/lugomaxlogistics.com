@@ -31,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: careers#apply');
         exit;
     }
+
     if (!validate_email($email)) {
         set_flash('error', 'Please enter a valid email address.');
         header('Location: careers#apply');
