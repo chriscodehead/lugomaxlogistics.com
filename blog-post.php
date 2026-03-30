@@ -71,6 +71,7 @@ include 'includes/header.php';
     </div>
   </div>
 
+
   <footer class="blog-post-footer">
     <div class="container" style="max-width: 800px;">
       <div class="blog-post-share">

@@ -6,30 +6,6 @@ init_session();
 $current_page = 'quote';
 $page_title = 'Get a Quote';
 
-// Handle form submission
-// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-//     $quote_number = 'QTE-' . date('Ymd') . '-' . rand(1000, 9999);
-
-//     $db = getDB();
-//     $stmt = $db->prepare("INSERT INTO quotes (quote_number, customer_name, customer_email, customer_phone, pickup_postcode, delivery_postcode, service_type, package_weight, delivery_date, special_requirements) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-
-//     $stmt->execute([
-//         $quote_number,
-//         $_POST['name'],
-//         $_POST['email'],
-//         $_POST['phone'],
-//         $_POST['pickup_postcode'],
-//         $_POST['delivery_postcode'],
-//         $_POST['service_type'],
-//         $_POST['weight'] ?? null,
-//         $_POST['delivery_date'] ?? null,
-//         $_POST['requirements'] ?? null
-//     ]);
-
-//     set_flash('success', 'Quote request submitted! Your quote number is: ' . $quote_number);
-//     redirect('/quote.php');
-// }
-
 init_session();
 $db = getDB();
 
@@ -402,7 +378,7 @@ include 'includes/header.php';
     <div class="container">
 
         <form method="POST" class="quote-flow">
-            <!-- ================= STEP 1 ================= -->
+
             <div class="form-step active">
                 <center><?php if ($error): ?>
                         <div class="alert alert-error"><strong>Error:</strong> <?= htmlspecialchars($error) ?></div>
