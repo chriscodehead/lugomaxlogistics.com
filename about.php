@@ -115,6 +115,7 @@ include 'includes/header.php';
       </div>
 
       <div class="card feature-card">
+
         <div style="background: #0a2463;" class="card-icon orange">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target h-8 w-8 text-white" aria-hidden="true" data-fg-snq55=":34.272:/components/pages/About.tsx:150:21:7143:45:e:value.icon">
             <circle cx="12" cy="12" r="10"></circle>
@@ -122,6 +123,7 @@ include 'includes/header.php';
             <circle cx="12" cy="12" r="2"></circle>
           </svg>
         </div>
+
         <h5 style="color: #0a2463;">Integrity</h5>
         <p class="mt-4">Honesty and transparency are at the foundation of our business. We conduct ourselves with the utmost ethical standards.</p>
       </div>
